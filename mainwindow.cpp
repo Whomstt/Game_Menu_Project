@@ -1,8 +1,10 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "recipemenu.h"
 
 MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWindow)
 {
+
     ui->setupUi(this);
 }
 
@@ -20,9 +22,7 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_clicked()
 {
-
-    ui->label->hide();
-    ui->pushButton->hide();
-    ui->pushButton_2->hide();
+    recipemenu r;
+    r.show();
 }
 
