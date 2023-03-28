@@ -11,15 +11,21 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    recipemenu.cpp
+    recipes.cpp \
+    food.cpp \
+    potions.cpp
 
 HEADERS += \
     mainwindow.h \
-    recipemenu.h
+    recipes.h \
+    food.h \
+    potions.h
 
 FORMS += \
     mainwindow.ui \
-    recipemenu.ui
+    recipes.ui \
+    food.ui \
+    potions.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

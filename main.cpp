@@ -1,6 +1,4 @@
 #include "mainwindow.h"
-#include "recipemenu.h"
-
 #include <QApplication>
 
 int main(int argc, char *argv[])

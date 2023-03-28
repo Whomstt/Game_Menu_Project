@@ -2,9 +2,6 @@
 <ui version="4.0">
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
-  <property name="enabled">
-   <bool>true</bool>
-  </property>
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -14,22 +11,35 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Valheim Menu</string>
+   <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <property name="enabled">
-    <bool>true</bool>
-   </property>
-   <widget class="QLabel" name="label">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>-20</x>
-      <y>0</y>
-      <width>831</width>
-      <height>561</height>
+      <x>300</x>
+      <y>250</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>PMingLiU-ExtB</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>View Recipes</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-70</x>
+      <y>-10</y>
+      <width>921</width>
+      <height>601</height>
      </rect>
     </property>
     <property name="text">
@@ -38,51 +48,29 @@
     <property name="pixmap">
      <pixmap resource="Resources/images.qrc">:/icons/background.jpg</pixmap>
     </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>270</y>
-      <width>231</width>
-      <height>71</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Tahoma</family>
-      <pointsize>21</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>View Recipes</string>
-    </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>400</y>
-      <width>231</width>
+      <y>390</y>
+      <width>211</width>
       <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Tahoma</family>
-      <pointsize>21</pointsize>
+      <family>PMingLiU-ExtB</family>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Quit</string>
+     <string>Exit</string>
     </property>
    </widget>
+   <zorder>label</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
