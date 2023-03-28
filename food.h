@@ -15,6 +15,9 @@ public:
     explicit food(QWidget *parent = nullptr);
     ~food();
 
+private slots:
+    void on_checkBox_stateChanged(int arg1);
+
 private:
     Ui::food *ui;
 };

@@ -13,3 +13,13 @@ food::~food()
 {
     delete ui;
 }
+
+void food::on_checkBox_stateChanged(int arg1)
+{
+    if(ui->checkBox->isChecked()) {
+        ui->duck->hide();
+    } else if(ui->checkBox->isCheckable()) {
+        ui->duck->show();
+    }
+}
+

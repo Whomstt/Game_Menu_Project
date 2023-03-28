@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
+    <width>500</width>
     <height>600</height>
    </rect>
   </property>
@@ -39,7 +39,7 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>559</width>
+        <width>548</width>
         <height>1000</height>
        </rect>
       </property>
@@ -57,51 +57,95 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
+        <widget class="QCheckBox" name="checkBox">
+         <property name="text">
+          <string>no duck</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <italic>true</italic>
+           <bold>true</bold>
+           <underline>true</underline>
+           <strikeout>false</strikeout>
+          </font>
+         </property>
+         <property name="text">
+          <string>Food                                   Ingredients                                    Equipment</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>TextLabel</string>
+          <string>Carrot Soup               Carrot x3, mushroom x1                 Cultivator, Cauldron</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>TextLabel</string>
+          <string>Minced Sauce        Boar meat x1, Neck tail x1, Carrot x1        Cultivator, Cauldron</string>
+         </property>
+         <property name="wordWrap">
+          <bool>false</bool>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_3">
+        <widget class="QLabel" name="duck">
          <property name="text">
-          <string>TextLabel</string>
+          <string>Sausages                Entrails x2, Raw meat x1, Thistle x1                Cauldron</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>TextLabel</string>
+          <string>Serpent           Honey x2, Mushroom x1            Cooking Station, Cauldron                                Stew                     Serpent Meat x1</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_6">
          <property name="text">
-          <string>TextLabel</string>
+          <string>Lox meat                    Barley flour x4, Cloudberries x2,                   Cauldron,                                                                     pie                                  Lox meat x2                                   Cooking Station</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_7">
          <property name="text">
-          <string>TextLabel</string>
+          <string>Blood                   Bloodbag x2, Barley flour x4,                 Windmill, Cauldron                     Pudding                Thistle x2</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>TextLabel</string>
+          <string>Fish          Cooked fish x2, Barley Flour x4                 Cooking Station, Windmill,  wraps                                                                           Cauldron</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Bread                       Barley flour x10                    Windmill, Cauldron, Stone oven</string>
          </property>
         </widget>
        </item>
