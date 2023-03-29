@@ -18,6 +18,18 @@ public:
 private slots:
     void on_checkBox_stateChanged(int arg1);
 
+    void on_cauldron_stateChanged(int arg1);
+
+    void on_cultiv_stateChanged(int arg1);
+
+    void on_carrot_linkActivated(const QString &link);
+
+    void on_oven_stateChanged(int arg1);
+
+    void on_cookstat_stateChanged(int arg1);
+
+    void on_windmill_stateChanged(int arg1);
+
 private:
     Ui::food *ui;
 };

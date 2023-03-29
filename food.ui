@@ -13,8 +13,8 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
-   <item>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0">
     <widget class="QScrollArea" name="scrollArea">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -39,7 +39,7 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>548</width>
+        <width>563</width>
         <height>1000</height>
        </rect>
       </property>
@@ -57,14 +57,77 @@
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QCheckBox" name="checkBox">
+        <widget class="QLabel" name="param">
+         <property name="font">
+          <font>
+           <family>Segoe UI Semibold</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
          <property name="text">
-          <string>no duck</string>
+          <string>Exclude Select Equipment:</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_8">
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QCheckBox" name="cultiv">
+           <property name="text">
+            <string>Cultivator</string>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="cauldron">
+           <property name="text">
+            <string>Cauldron</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="cookstat">
+           <property name="text">
+            <string>Cooking Station</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="windmill">
+           <property name="text">
+            <string>Windmill</string>
+           </property>
+           <property name="checkable">
+            <bool>true</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="oven">
+           <property name="text">
+            <string>Stone Oven</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QLabel" name="titles">
          <property name="font">
           <font>
            <italic>true</italic>
@@ -79,14 +142,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label">
+        <widget class="QLabel" name="carrot">
          <property name="text">
           <string>Carrot Soup               Carrot x3, mushroom x1                 Cultivator, Cauldron</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_2">
+        <widget class="QLabel" name="mince">
          <property name="text">
           <string>Minced Sauce        Boar meat x1, Neck tail x1, Carrot x1        Cultivator, Cauldron</string>
          </property>
@@ -96,14 +159,14 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="duck">
+        <widget class="QLabel" name="sausages">
          <property name="text">
           <string>Sausages                Entrails x2, Raw meat x1, Thistle x1                Cauldron</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_4">
+        <widget class="QLabel" name="serpent">
          <property name="text">
           <string>Serpent           Honey x2, Mushroom x1            Cooking Station, Cauldron                                Stew                     Serpent Meat x1</string>
          </property>
@@ -113,7 +176,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_6">
+        <widget class="QLabel" name="lox">
          <property name="text">
           <string>Lox meat                    Barley flour x4, Cloudberries x2,                   Cauldron,                                                                     pie                                  Lox meat x2                                   Cooking Station</string>
          </property>
@@ -123,7 +186,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_7">
+        <widget class="QLabel" name="blood">
          <property name="text">
           <string>Blood                   Bloodbag x2, Barley flour x4,                 Windmill, Cauldron                     Pudding                Thistle x2</string>
          </property>
@@ -133,7 +196,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_5">
+        <widget class="QLabel" name="fish">
          <property name="text">
           <string>Fish          Cooked fish x2, Barley Flour x4                 Cooking Station, Windmill,  wraps                                                                           Cauldron</string>
          </property>
@@ -143,7 +206,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_3">
+        <widget class="QLabel" name="bread">
          <property name="text">
           <string>Bread                       Barley flour x10                    Windmill, Cauldron, Stone oven</string>
          </property>
