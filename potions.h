@@ -15,6 +15,13 @@ public:
     explicit potions(QWidget *parent = nullptr);
     ~potions();
 
+private slots:
+    void on_radioButton_clicked();
+
+    void on_radioButton_2_clicked();
+
+    void on_radioButton_3_clicked();
+
 private:
     Ui::potions *ui;
 };

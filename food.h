@@ -30,6 +30,8 @@ private slots:
 
     void on_windmill_stateChanged(int arg1);
 
+    void on_toolButton_triggered(QAction *arg1);
+
 private:
     Ui::food *ui;
 };
