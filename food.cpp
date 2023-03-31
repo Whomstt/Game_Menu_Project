@@ -6,6 +6,7 @@ food::food(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::food)
 {
+    this->setFixedSize(QSize(500, 600));
     ui->setupUi(this);
 }
 

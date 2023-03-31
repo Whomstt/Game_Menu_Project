@@ -7,6 +7,7 @@ recipes::recipes(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::recipes)
 {
+    this->setFixedSize(QSize(700, 500));
     ui->setupUi(this);
 }
 

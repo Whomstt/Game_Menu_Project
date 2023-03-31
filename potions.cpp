@@ -5,6 +5,7 @@ potions::potions(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::potions)
 {
+    this->setFixedSize(QSize(600, 600));
     ui->setupUi(this);
 }
 

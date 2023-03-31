@@ -23,6 +23,10 @@ private slots:
 
     void on_actionExit_triggered();
 
+    void on_verticalSlider_actionTriggered(int action);
+
+    void on_verticalSlider_valueChanged(int value);
+
 private:
     Ui::MainWindow *ui;
 };
